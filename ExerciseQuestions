@@ -1,0 +1,16 @@
+Databases and SQL Exercise
+
+Write down 5 aspects of databases and SQL that you think are important to software and applications.
+- Not a lot of duplicated data; easier to find things and navigate
+- Organized in rows/columns; easier to read
+- Security; limited access for Admins/Users
+- Can be stored just about anywhere at anytime 
+- Been around for a while; guaranteed to work efficiently
+
+
+Write down 5 questions you have on databases and SQL (stay away from syntax at the moment!).
+- How can you know whether or not a Database needs normalization?
+- Differences between "One to Many" and "Many to One" in real world example?
+- The "Q" in SQL stands for query; is this something that is pre-made into the data, or do we build it?
+- Is there a way to "undo" something from History list or you have to manually delete/modify the data?
+- How is SQL applied to social media such as instagram or facebook?

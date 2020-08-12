@@ -1,0 +1,42 @@
+Databases & SQL
+
+Databases- System for the storage and retrieval of organized information
+	- I like to think about it like a Filing Cabinet
+
+::USER -> APPS -> DATABASES
+
+EX: 
+Things that have to be stored in a Database for a Blog:
+	- Posts (text, images, embedded content)
+	- Authors / Users (thier role/permissions)
+	- Comments
+	- Tags & Categories
+	- Avatars
+	- Search history
+	- Favorites
+
+Relational Databases:
+	- Stores data in Tables (basically... Excel spreadsheets)
+	- Tables have Rows and Columns
+	- Tables are related to each other through PRIMARY KEYS AND FOREIGN KEYS
+	- A RECORD is a row in our Tables
+	- Relationships between tables should be created and defined before any records are created
+
+
+Ex: Construction Co.
+	- Equipment Table and Service Table
+	- PRIMARY KEY = ServiceID (unique identifier)
+	- FOREIGN KEY = EquipmentID (creates relationship between the tables)
+	- This is an exmaple of a "One To Many" Relationship
+
+How do we interact with a relational Database?
+	- SQL: Structured Query Language
+		- SQL commands allows us to store, manipulate and retrieve data
+		- SQL is the LANGUAGE used to interact with a Database
+
+Databases have named themselves after SQL, which can be confusing
+	- There's lots of flavors of relational Databases
+		- Popular ones: MySQL, PostgreSQL, Oracle(enterprise), Microsoft SQL Server, SQLite
+		- All of these are relational databases and they all use the same SQL syntax
+		- However, annoyingly, there is going to be some differences in semantics
+
